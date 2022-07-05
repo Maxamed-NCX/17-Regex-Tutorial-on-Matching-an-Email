@@ -14,11 +14,11 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Control characters]  character
+- [Control characters] (#character)
 - [Escape Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [ Greedy and Non-Greedy Match](#greedy-and- non-greedy-match)
+- [Greedy and Non-Greedy Match](#greedy-and- non-greedy-match)
 
 ## Regular expression atoms
 
