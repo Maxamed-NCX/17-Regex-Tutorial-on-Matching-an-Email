@@ -19,6 +19,7 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Non-Greedy Match](#Greedy and Non-Greedy Match)
+- [Greedy and Non-Greedy Match](#Greedy and Non-Greedy Match)
 - [Author](#Author)
 
 ## Regular expression atoms
