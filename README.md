@@ -13,7 +13,7 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 ## Table of Contents
 
 - [Anchors](#anchors)
-- [Control characters](#Control characters)
+- [Control characters](#Control-characters)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
@@ -88,7 +88,7 @@ MCX
 
 ### Repo
 
-[Github repository](https://github.com/Mcnoor) <br>
+[Github repository](https://github.com/Mcnoor/Challenge-Module17-BC) <br>
 
 [GitHub Gist](https://gist.githubusercontent.com/Mcnoor/c0ce000be899549046fbf9485d012011/raw/5180442f9626fb1f4f654488ad55a16d6f672216/Computer%2520Science%2520for%2520JavaScript%2520Challenge:%2520Regex%2520Tutorial)
 
