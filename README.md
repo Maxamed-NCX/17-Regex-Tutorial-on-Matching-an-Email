@@ -59,7 +59,7 @@ Bracket Expression second: `[\da-z\.-]`   - includes all digits, case sensitive 
 Bracket Expression third: `[a-z\.]`      - includes case sensitive characters from a-z and periods.
 
 
-### Greedy & Non Greedy Match
+### Greedy and Non Greedy Match
 
 Here, we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were non-greedy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
 
