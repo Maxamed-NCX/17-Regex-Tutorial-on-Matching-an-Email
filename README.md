@@ -13,7 +13,7 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 ## Table of Contents
 
 - [Anchors](#anchors)
-- [Control characters](#Control-characters)
+- [Control characters](#Control characters)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
@@ -36,8 +36,8 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 A backslash, \, followed by one of the characters a, b, f, n, r, t, v represents the ANSI-C interpretation of the control character
 
 ### Quantifiers
- - *   representing 0 or more occurrences of the atom,
- - +   representing 1 or more occurrence of the atom,
+ - "*"   representing 0 or more occurrences of the atom,
+ - "+"   representing 1 or more occurrence of the atom,
  - ?   representing 0 or 1 occurrences of the atom,
  - the bound {n}   representing exactly n occurrences of the atom,
  - the bound {m,n}   representing between m and n occurrences of the atom.
