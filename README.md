@@ -51,6 +51,8 @@ The user should be able to enter either "part1" (answer 1), "part2" (answer 2) o
 In this Regex, the charactor class `/d` is used which in Javasctipt classifies the use of any digit from 0 to 9.
 
 ### Flags
+A regular expression consists of a pattern and optional flags: g, i, m, u, s, y.
+Without flags and special symbols (that we’ll study later), the search by a regexp is the same as a substring search.
 
 ### Grouping and Capturing
 There are 3 groups being captured in this example. The charactor class `/d` in 1st Group is the username of the email account `[A-Za-z0-9_\.-]` ~ "GistGit22". The 2nd group captures the domain name or e-mail service being used `[\da-z\.-]` ~"@.github" Lastly, the 3rd group captures the domain extention (i.e .com or .net) `[a-z\.]{2,6}`
