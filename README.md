@@ -13,19 +13,27 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 ## Table of Contents
 
 - [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
 - [Control characters](#Control-characters)
-- [Escape Character Classes](#character-classes)
+- [Quantifiers](#quantifiers)
+- [OR Operator](#or-operator)
+- [Character Classes](#character-classes)
+- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy & Non Greedy Match](#Greedy-and-Non-Greedy-Match)
-- [Author](#Author)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
+- [Boundaries](#boundaries)
+- [Back-references](#back-references)
+- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regular expression atoms
+## Regex Components
 
 ### Anchors
 - ^ matches at the beginning of the target string
 - $ matches at the end of the target string
+
+### Control characters
+
+A backslash, \, followed by one of the characters a, b, f, n, r, t, v represents the ANSI-C interpretation of the control character
 
 ### Quantifiers
  - *   representing 0 or more occurrences of the atom,
@@ -36,20 +44,18 @@ This is the regex code that we will be anaylizing today is: `/^([a-z0-9_\.-]+)@(
 
 When we used `+` to communicate there is another sequence to be matched as a greedy quantifier. For Example `{n,m}` or `{3,9} as another greedy quantifer to specify the input should be a minimum of 2 characrtors to a maximum of 9 characters.
 
-### Control characters
-
-A backslash, \, followed by one of the characters a, b, f, n, r, t, v represents the ANSI-C interpretation of the control character
+### OR Operator
+The user should be able to enter either "part1" (answer 1), "part2" (answer 2) or "part1, part2" (answer 3). For Exmample ((^|, )(part1|part2|part3))+$
 
 ### Character Classes
-
 In this Regex, the charactor class `/d` is used which in Javasctipt classifies the use of any digit from 0 to 9.
 
-### Grouping and Capturing
+### Flags
 
+### Grouping and Capturing
 There are 3 groups being captured in this example. The charactor class `/d` in 1st Group is the username of the email account `[A-Za-z0-9_\.-]` ~ "GistGit22". The 2nd group captures the domain name or e-mail service being used `[\da-z\.-]` ~"@.github" Lastly, the 3rd group captures the domain extention (i.e .com or .net) `[a-z\.]{2,6}`
 
 ### Bracket Expressions
-
 Similar to groups in this example, there are also 3 bracket expressions. The information in the bracket expressions is opened and closed between brackets like this `[]`. This indentifies which information is allowed to be matched.
 
 Bracket Expression first: `[A-Za-z0-9_\.-]` - includes non-case sensitive characters from a-z, numbers from 0-9 an underscore, periods and hyphens.
@@ -58,10 +64,21 @@ Bracket Expression second: `[\da-z\.-]`   - includes all digits, case sensitive 
 
 Bracket Expression third: `[a-z\.]`      - includes case sensitive characters from a-z and periods.
 
-
-### Greedy and Non Greedy Match
-
+### Greedy and Lazy Match
 Here, we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were non-greedy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
+
+### Boundaries
+The word boundary \b matches positions where one side is a word character. 
+
+The regex \bcat\b would therefore match cat in a black cat, but it wouldn't match it in category, tomcat or dedication. Removing one of the boundaries, \bcat would match cat in catfish, and cat\b would match cat in tomcat, but not vice-versa. Both, of course, would match cat on its own.
+
+### Back-references
+In the example below the group with quotes is named ?<quote>, so the backreference is \k<quote>:
+A group can be referenced in the pattern using \N, where N is the group number.
+
+### Look-ahead and Look-behind
+Lookahead The syntax example: X(?=Y), it means "look for X, but match only if after Y". There may be any pattern instead of X and Y.
+Lookbehind The syntax example: X(?!Y), it means "search X, but only if not after Y".
 
 ## Author
 
@@ -70,6 +87,7 @@ MCX
 ### Repo
 
 Here is my github repository: https://github.com/Mcnoor
+Here is my GitHub Gist :https://gist.github.com/Mcnoor/c0ce000be899549046fbf9485d012011
 
 ### email
 
