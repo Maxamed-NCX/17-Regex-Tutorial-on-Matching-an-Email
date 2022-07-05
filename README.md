@@ -89,7 +89,9 @@ MCX
 ### Repo
 
 Here is my github repository: https://github.com/Mcnoor <br>
-Here is my GitHub Gist :https://gist.github.com/Mcnoor/c0ce000be899549046fbf9485d012011
+Here is my GitHub Gist :[https://gist.github.com/Mcnoor/c0ce000be899549046fbf9485d012011](https://gist.githubusercontent.com/Mcnoor/c0ce000be899549046fbf9485d012011/raw/5180442f9626fb1f4f654488ad55a16d6f672216/Computer%2520Science%2520for%2520JavaScript%2520Challenge:%2520Regex%2520Tutorial)
+
+[GitHub Gist](https://gist.githubusercontent.com/Mcnoor/c0ce000be899549046fbf9485d012011/raw/5180442f9626fb1f4f654488ad55a16d6f672216/Computer%2520Science%2520for%2520JavaScript%2520Challenge:%2520Regex%2520Tutorial)
 
 ### email
 
