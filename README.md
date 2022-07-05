@@ -89,7 +89,7 @@ Bracket Expression second: `[\da-z\.-]`   - includes all digits, case sensitive 
 Bracket Expression third: `[a-z\.]`      - includes case sensitive characters from a-z and periods.
 
 ### Greedy and Lazy Match
-Here, we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were non-greedy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
+Here, we have only used greedy quantifiers `+` and `{}`, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as `+?` or `{}?`, this will direct the system to make the shortest match.
 
 ### Boundaries
 The word boundary \b matches positions where one side is a word character. 
