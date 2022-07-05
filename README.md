@@ -1,5 +1,6 @@
-# Challenge-Module17-BC
-Computer Science for JavaScript Challenge: Regex Tutorial
+# Regex Tutorial
+
+Computer Science for JavaScript Challenge
 
 
 # Regex Tutorial on Matching an Email
