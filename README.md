@@ -1,8 +1,8 @@
 # Regex Tutorial on Matching an Email
 Computer Science for JavaScript Challenge
 
-## Gist
-[Github Gist](https://gist.github.com/Mcnoor/f785ca7daf3ae03758b87bb105745c42) <br>
+## [Github Gist](https://gist.github.com/Mcnoor/f785ca7daf3ae03758b87bb105745c42) <br>
+
 
 Regular expressions can be used to find certain patterns of characters within a string. You can also find and replace a character or sequence of characters within a string. They are also frequently used to validate input. This regex matches character information for valid e-mail addresses.
 
