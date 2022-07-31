@@ -2,7 +2,7 @@
 
 Computer Science for JavaScript Challenge
 
-<script src="https://gist.github.com/Mcnoor/c0ce000be899549046fbf9485d012011.js"></script>
+[Github Gist]([https://github.com/Mcnoor/Challenge-Module17-BC](https://gist.github.com/Mcnoor/f785ca7daf3ae03758b87bb105745c42)) <br>
 
 
 
@@ -112,14 +112,6 @@ Here, we have only used greedy quantifiers `+` and `{}`, meaning that it will al
 ## Author
 
 MCX
-
-### Repo
-
-Here is my github repository: https://github.com/Mcnoor
-
-### email
-
-maxanoor@gmail.com
 
 ### Repo
 
